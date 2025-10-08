@@ -1,5 +1,4 @@
 
-
 void main() {
 
 TRISB=0x00; //B portunun bütün pinleri çýkýþ olarak ayarlandý.
@@ -18,4 +17,3 @@ while(1){
 
 
 }
-
