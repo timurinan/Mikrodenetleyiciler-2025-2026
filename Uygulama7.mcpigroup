@@ -1,0 +1,10 @@
+[PROJECTS]
+Count=6
+Project0=..\Ders Ornekleri\Uygulama7.mcppi
+Project1=Uygulama3.mcppi
+Project2=Uygulama4.mcppi
+Project3=Uygulama5.mcppi
+Project4=Uygulama6.mcppi
+Project5=Uygulama7.mcppi
+[ActiveProject]
+Index=5
