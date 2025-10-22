@@ -1,0 +1,3 @@
+main
+	saga_kaydir
+	sola_kaydir
