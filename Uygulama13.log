@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -DL -O11111114 -fo8 -N"C:\Users\PC\Desktop\Ders Ornekleri 25-26\Uygulama13.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\PC\Desktop\Ders Ornekleri 25-26\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Uygulama13.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Uygulama13.c
+diagnostics: 26	123	Compiled Successfully	Uygulama13.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 4 (1%)  Free RAM (bytes): 348 (99%)	Used RAM (bytes): 4 (1%)  Free RAM (bytes): 348 (99%)
+hint: 0	1144	Used ROM (program words): 57 (1%)  Free ROM (program words): 8135 (99%)	Used ROM (program words): 57 (1%)  Free ROM (program words): 8135 (99%)
+diagnostics: 0	125	Project Linked Successfully	Uygulama13.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'Uygulama13.mcppi' completed: 282 ms	 
+diagnostics: 0	103	Finished successfully: 22 Eki 2025, 12:10:28	Uygulama13.mcppi
