@@ -1,0 +1,10 @@
+[PROJECTS]
+Count=6
+Project0=..\MikroCDenemeler\Deneme16.mcppi
+Project1=MyProject.mcppi
+Project2=Uygulama21.mcppi
+Project3=Uygulama22.mcppi
+Project4=Uygulama23.mcppi
+Project5=Uygulama24.mcppi
+[ActiveProject]
+Index=5

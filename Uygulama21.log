@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -DL -O11111114 -fo8 -N"C:\Users\PC\Desktop\Ders Ornekleri 25-26\Uygulama21.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\PC\Desktop\Ders Ornekleri 25-26\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Uygulama21.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Uygulama21.c
+warning: 27	1503	Result is not defined in function: 'init'	Uygulama21.c
+diagnostics: 37	123	Compiled Successfully	Uygulama21.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 27 (8%)  Free RAM (bytes): 325 (92%)	Used RAM (bytes): 27 (8%)  Free RAM (bytes): 325 (92%)
+hint: 0	1144	Used ROM (program words): 324 (4%)  Free ROM (program words): 7868 (96%)	Used ROM (program words): 324 (4%)  Free ROM (program words): 7868 (96%)
+diagnostics: 0	125	Project Linked Successfully	Uygulama21.mcppi
+diagnostics: 0	128	Linked in 47 ms	 
+diagnostics: 0	129	Project 'Uygulama21.mcppi' completed: 313 ms	 
+diagnostics: 0	103	Finished successfully: 26 Kas 2025, 11:02:02	Uygulama21.mcppi

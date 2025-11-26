@@ -1,0 +1,39 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="p16F877-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-216,-140" rotation="0" hflip="1" vflip="1" label="p16F877-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="20 MHz" Program="Uygulama22.hex" Auto_Load="false" saveEepr="true" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-132" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Hd44780" CircId="Hd44780-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-32,-184" rotation="0" hflip="1" vflip="1" label="Hd44780-3" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Ground" CircId="Ground-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,0" rotation="0" hflip="1" vflip="1" label="Ground-4" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-5" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-360,-16" rotation="-90" hflip="1" vflip="1" label="Potentiometer-5" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1 kΩ" Value_Ohm="305 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,-80" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-6" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,76" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="p16F877-1-MCLR" endpinid="Fixed Voltage-2-outnod" pointList="-224,-132,-336,-132" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="p16F877-1-PORTB0" endpinid="Hd44780-3-dataPin4" pointList="-160,-76,40,-76,40,-176" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="p16F877-1-PORTB1" endpinid="Hd44780-3-dataPin5" pointList="-160,-84,48,-84,48,-176" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="p16F877-1-PORTB2" endpinid="Hd44780-3-dataPin6" pointList="-160,-92,56,-92,56,-176" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="p16F877-1-PORTB3" endpinid="Hd44780-3-dataPin7" pointList="-160,-100,64,-100,64,-176" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Hd44780-3-PinEn" endpinid="p16F877-1-PORTB5" pointList="0,-176,0,-116,-160,-116" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Hd44780-3-PinRS" endpinid="p16F877-1-PORTB4" pointList="-16,-176,-16,-108,-160,-108" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Ground-4-Gnd" endpinid="Hd44780-3-PinRW" pointList="-8,-16,-8,-176" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Fixed Voltage-6-outnod" endpinid="Potentiometer-5-PinB" pointList="-408,-80,-360,-80,-360,-32" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Ground-7-Gnd" endpinid="Potentiometer-5-PinA" pointList="-360,60,-360,0" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Potentiometer-5-PinM" endpinid="p16F877-1-PORTA0" pointList="-344,-16,-248,-16,-248,-124,-224,-124" />
+
+</circuit>
