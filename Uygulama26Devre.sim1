@@ -1,0 +1,59 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="p16F877-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-280,-108" rotation="0" hflip="1" vflip="1" label="p16F877-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="20 MHz" Program="Uygulama25.hex" Auto_Load="false" saveEepr="true" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-132" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,-76" rotation="0" hflip="1" vflip="1" label="Seven Segment-8" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Ground" CircId="Ground-9" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-8" rotation="0" hflip="1" vflip="1" label="Ground-9" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BcdTo7S" CircId="BcdTo7S-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-76" rotation="0" hflip="1" vflip="1" label="BcdTo7S-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-64" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-11" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Push" CircId="Push-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-336,0" rotation="90" hflip="1" vflip="1" label="Push-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Resistor" CircId="Resistor-13" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-336,56" rotation="90" hflip="1" vflip="1" label="Resistor-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-336,104" rotation="0" hflip="1" vflip="1" label="Ground-14" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-336,28" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="p16F877-1-MCLR" endpinid="Fixed Voltage-2-outnod" pointList="-288,-100,-336,-100,-336,-132" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Ground-9-Gnd" endpinid="Seven Segment-8-pin_commona" pointList="4,-24,4,-44" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="BcdTo7S-10-out0" endpinid="Seven Segment-8-pin_a" pointList="-92,-100,-28,-100" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="BcdTo7S-10-out1" endpinid="Seven Segment-8-pin_b" pointList="-92,-92,-28,-92" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="BcdTo7S-10-out2" endpinid="Seven Segment-8-pin_c" pointList="-92,-84,-28,-84" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="BcdTo7S-10-out3" endpinid="Seven Segment-8-pin_d" pointList="-92,-76,-28,-76" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="BcdTo7S-10-out4" endpinid="Seven Segment-8-pin_e" pointList="-92,-68,-28,-68" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="BcdTo7S-10-out5" endpinid="Seven Segment-8-pin_f" pointList="-92,-60,-28,-60" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="BcdTo7S-10-out6" endpinid="Seven Segment-8-pin_g" pointList="-92,-52,-28,-52" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="p16F877-1-PORTB0" endpinid="BcdTo7S-10-in0" pointList="-224,-44,-176,-44,-176,-84,-140,-84" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="p16F877-1-PORTB1" endpinid="BcdTo7S-10-in1" pointList="-224,-52,-164,-52,-164,-76,-140,-76" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="p16F877-1-PORTB2" endpinid="BcdTo7S-10-in2" pointList="-224,-60,-152,-60,-152,-68,-140,-68" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="p16F877-1-PORTB3" endpinid="BcdTo7S-10-in3" pointList="-224,-68,-192,-68,-192,-24,-144,-24,-144,-60,-140,-60" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Ground-14-Gnd" endpinid="Resistor-13-rPin" pointList="-336,88,-336,72" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Push-12-pinP0" endpinid="Fixed Voltage-11-outnod" pointList="-336,-16,-336,-64,-340,-64" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="p16F877-1-PORTD0" endpinid="Node-15-1" pointList="-288,44,-312,44,-312,28,-336,28" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Resistor-13-lPin" endpinid="Node-15-0" pointList="-336,40,-336,28" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Node-15-2" endpinid="Push-12-switch0pinN" pointList="-336,28,-336,16" />
+
+</circuit>
