@@ -1,0 +1,30 @@
+void main() {
+
+PR2=99;
+
+CCPR1L=0x32;// 0b00110010
+
+CCP1CON=0x0C;// 0b00001100
+
+TRISC.F2=0;
+TRISC.F0=1;
+TRISC.F1=1;
+
+T2CON=0b00000100;
+trisb=0;
+trisd=0xff;
+
+while(1){
+
+if(PORTD.F0==1){
+CCPR1L=0x19;// 0b00011001  %25
+
+}
+else if(PORTD.F1==1){
+ CCPR1L=0x32;// 0b00110010 %50
+}else if(PORTC.F1==1){
+CCPR1L=0x4B;// 0b01001011  %75
+}
+else if(PORTC.F0==1){
+ CCPR1L=0x64;// 0b01101000 %100
+}}}
