@@ -1,0 +1,15 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="p16F877-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,-208" rotation="0" hflip="1" vflip="1" label="p16F877-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../../Users/PC/Desktop/Ders Ornekleri 25-26/Uygulama34.hex" Auto_Load="false" saveEepr="true" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-200" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="SerialTerm" CircId="SerialTerm-3" mainComp="false" Show_id="false" Show_Val="false" Pos="52,-88" rotation="0" hflip="1" vflip="1" label="SerialTerm-3" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="p16F877-1-MCLR" endpinid="Fixed Voltage-2-outnod" pointList="-204,-200,-356,-200" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="p16F877-1-PORTC6" endpinid="SerialTerm-3-pin1" pointList="-140,-80,28,-80" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="p16F877-1-PORTC7" endpinid="SerialTerm-3-pin0" pointList="-140,-88,0,-88,0,-96,28,-96" />
+
+</circuit>
