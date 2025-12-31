@@ -1,0 +1,43 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="KeyPad" CircId="KeyPad-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-16" rotation="0" hflip="1" vflip="1" label="KeyPad-1" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="3" Key_Labels="123456789*0#" />
+
+<item itemtype="MCU" CircId="p16F877-25" mainComp="false" Show_id="true" Show_Val="false" Pos="-96,-128" rotation="0" hflip="1" vflip="1" label="p16F877-25" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="20 MHz" Program="Uygulama37.hex" Auto_Load="false" saveEepr="true" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-120" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-29" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Hd44780" CircId="Hd44780-31" mainComp="false" Show_id="true" Show_Val="false" Pos="36,-176" rotation="0" hflip="1" vflip="1" label="Hd44780-31" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Ground" CircId="Ground-32" mainComp="false" Show_id="false" Show_Val="false" Pos="60,-60" rotation="0" hflip="1" vflip="1" label="Ground-32" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="p16F877-25-PORTC0" endpinid="KeyPad-1-Pin0" pointList="-104,-8,-168,-8" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="p16F877-25-PORTC1" endpinid="KeyPad-1-Pin1" pointList="-104,0,-152,0,-152,8,-168,8" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="p16F877-25-PORTC2" endpinid="KeyPad-1-Pin2" pointList="-104,8,-140,8,-140,24,-168,24" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="p16F877-25-PORTC3" endpinid="KeyPad-1-Pin3" pointList="-104,16,-128,16,-128,40,-168,40" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="p16F877-25-PORTD0" endpinid="KeyPad-1-Pin6" pointList="-104,24,-116,24,-116,68,-184,68,-184,56" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="p16F877-25-PORTD1" endpinid="KeyPad-1-Pin5" pointList="-104,32,-104,76,-200,76,-200,56" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="p16F877-25-PORTD2" endpinid="KeyPad-1-Pin4" pointList="-40,32,-40,84,-216,84,-216,56" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Fixed Voltage-29-outnod" endpinid="p16F877-25-MCLR" pointList="-200,-120,-104,-120" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="p16F877-25-PORTB4" endpinid="Hd44780-31-PinRS" pointList="-40,-96,52,-96,52,-168" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Hd44780-31-PinEn" endpinid="p16F877-25-PORTB5" pointList="68,-168,68,-104,-40,-104" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Ground-32-Gnd" endpinid="Hd44780-31-PinRW" pointList="60,-76,60,-168" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="Hd44780-31-dataPin4" endpinid="p16F877-25-PORTB0" pointList="108,-168,108,-64,-40,-64" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Hd44780-31-dataPin5" endpinid="p16F877-25-PORTB1" pointList="116,-168,116,-72,-40,-72" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Hd44780-31-dataPin6" endpinid="p16F877-25-PORTB2" pointList="124,-168,124,-80,-40,-80" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="Hd44780-31-dataPin7" endpinid="p16F877-25-PORTB3" pointList="132,-168,132,-88,-40,-88" />
+
+</circuit>
